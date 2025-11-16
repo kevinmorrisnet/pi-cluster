@@ -14,7 +14,7 @@ spec:
             - name:  renovate
               image: renovate/renovate:latest
               args:
-                - kevinmorrisnet/pi-cluster
+                - kevinmorrisnet/homelab
 
               envFrom:
                 - secretRef:
